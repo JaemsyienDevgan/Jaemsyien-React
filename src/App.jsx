@@ -12,19 +12,19 @@ function App() {
           justifyContent: 'space-between',
         }}
       >
-        <Link href="#" className={styles.link}>
+        <Link to="#" className={styles.link}>
           Kenangan Senja
         </Link>
 
         <div className="">
-          <Link href="/Menu" className={styles.link}>
+          <Link to="/Menu" className={styles.link}>
             Menu
           </Link>
-          <Link href="/AboutUs" className={styles.link}>
+          <Link to="/AboutUs" className={styles.link}>
             About Us
           </Link>
-          <Link href="/Order" className={styles.link}>
-            Contact Us
+          <Link to="/Order" className={styles.link}>
+            Order
           </Link>
         </div>
       </nav>
